@@ -2,11 +2,8 @@ const datos = {
     cantidad: '',
     categoria: ''
 };
-
 var categoria;
 datos.categoria = 'estudiante';
-
-
 const cantidad = document.querySelector('#cantidad');
 categoria = document.querySelector('#categoria');
 const totalAPagar = document.querySelector('#totalAPagar');
